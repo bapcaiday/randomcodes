@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        #title{
+           font-size: 30px;
+           font-weight: bold;
+        }
+
+        #fname{
+            width: 80%;
+            height: 20%;            
+        }
+
+        #lname{
+            height: 20%;
+            width: 80%;
+        }
+
+        #sname{
+            height: 20%;
+            width: 80%;
+            color: white;
+            background-color: rgb(24, 147, 106);
+            border-color: rgb(50, 163, 126);
+            padding: 5px;
+            background-clip: border-box;
+        }
+        .box
+        {
+            background-color: whitesmoke;
+            width: 30%;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+            display: inherit;
+            padding: 5px;
+            box-sizing: border-box;
+            border: 0.5px solid rgb(146, 135, 135);
+            background-clip: content-box;
+        }
+        
+        .img1{
+            width: 100%;
+            height: 10%;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/000/662/702/original/vector-man-face-cartoon.jpg);
+            background-size:8%;
+            background-repeat: no-repeat; 
+            box-sizing: border-box;
+            background-position: center;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+<h2 id="title">FIT.HCMUS Login</h2>
+
+
+<div class="box">
+
+<div class="img1"></div>
+
+<form action="/" method="post">
+  <label for="fname" style="font-weight:bold">Username</label><br>
+  <input type="text" placeholder="Enter Username" id="fname" name="fname" value=""><br>
+  <label for="lname" style="font-weight:bold">Password</label><br>
+  <input type="password" placeholder="Enter Password" id="lname" name="lname" value=""><br><br>
+  <button type="submit" id="sname">Login</button><br><br>
+</form> 
+</div>
+<p>If you click the "Login" button, the form-data will be sent to web server.</p>
+
+</body>
+</html>
